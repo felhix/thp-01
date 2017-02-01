@@ -28,10 +28,32 @@ form{
     text-align: center;
 }
 
+input[type="submit"] {
+    background-color: #e7e7e7; /* Green */
+    border: none;
+    color: grey;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration-color: grey;
+    font-family:sans-serif;
+}
+
 input[type="text"] {
-    width: 500px;
-    height: 30px;
+    width: 600px;
+    height: 40px;
    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border: 2px solid #eeeeee;
+font-size: 1.2em;
+line-height: 1.5em;
+color: #333333;
+letter-spacing: .01em;
+font-style: normal;
+font-weight: 300;
+font-family: Arial;
+sans-serif;
 }
 
 /*input[type="submit"] {
